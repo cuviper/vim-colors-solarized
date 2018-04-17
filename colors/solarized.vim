@@ -467,7 +467,7 @@ endif
 " Highlighting primitives"{{{
 " ---------------------------------------------------------------------
 
-exe "let s:bg_none      = ' ".s:vmodebg."=".s:none   ."'"
+exe "let s:bg_none      = ' ctermbg=".s:none." guibg=".s:none."'"
 exe "let s:bg_back      = ' ".s:vmodebg."=".s:back   ."'"
 exe "let s:bg_base03    = ' ".s:vmodebg."=".s:base03 ."'"
 exe "let s:bg_base02    = ' ".s:vmodebg."=".s:base02 ."'"
@@ -486,7 +486,7 @@ exe "let s:bg_violet    = ' ".s:vmodebg."=".s:violet ."'"
 exe "let s:bg_blue      = ' ".s:vmodebg."=".s:blue   ."'"
 exe "let s:bg_cyan      = ' ".s:vmodebg."=".s:cyan   ."'"
 
-exe "let s:fg_none      = ' ".s:vmodefg."=".s:none   ."'"
+exe "let s:fg_none      = ' ctermfg=".s:none." guifg=".s:none."'"
 exe "let s:fg_back      = ' ".s:vmodefg."=".s:back   ."'"
 exe "let s:fg_base03    = ' ".s:vmodefg."=".s:base03 ."'"
 exe "let s:fg_base02    = ' ".s:vmodefg."=".s:base02 ."'"
